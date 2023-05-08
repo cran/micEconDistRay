@@ -1,0 +1,10 @@
+export( "distRayCalc" )
+export( "distRayDeriv" )
+export( "distRayEla" )
+export( "distRayEst" )
+export( "distRayMonoRestr" )
+
+importFrom( "sfaR", "sfacross" )
+importFrom( "stats", "as.formula" )
+importFrom( "stats", "coef" )
+importFrom( "stats", "lm" )
